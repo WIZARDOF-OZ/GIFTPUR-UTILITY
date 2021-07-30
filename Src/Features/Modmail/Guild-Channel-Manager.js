@@ -22,7 +22,7 @@ module.exports = (client, def) => {
                 .setAuthor(' SUPPORT TEAM', config.icon)
                 .addField('The support has been closed!', 'Message again to open a new support session.')
                 .setFooter('Thank You for contacting us :)')
-                .setColor('RED')
+                .setColor('WHITE')
                 .setTimestamp();
             tUser.send(bye).catch(e => {
                 return message.channel.send(embed.setDescription('<:crooss:846305904567517184> | The user has blocked his dm\nMessage cannot be sent'))
