@@ -1,0 +1,9 @@
+[
+    {
+        "guildId": "838353405998530591",
+        "delete": true,
+        "ignoredPerms": [
+            "ADMINISTRATOR"
+        ]
+    }
+]
